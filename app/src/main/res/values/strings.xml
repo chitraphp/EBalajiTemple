@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">EBalajiTemple</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="temple">temple</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Mailing">Mailing</string>
+    <string name="Pics">Pics</string>
+    <string name="Q">Q?</string>
+    <string name="Around">Around</string>
+</resources>
