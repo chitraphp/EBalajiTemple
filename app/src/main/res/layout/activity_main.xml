@@ -26,50 +26,51 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:weightSum="1"
+        android:weightSum="5"
         android:layout_marginBottom="5dp"
         android:id="@+id/linearLayout">
 
 
         <ImageButton
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="fill_parent"
             android:id="@+id/Facebook"
             android:layout_gravity="top|bottom"
-            android:layout_weight=".2"
+            android:layout_weight="1"
             android:contentDescription="@string/Facebook"
-            android:src="@drawable/facebook" />
+            android:src="@drawable/facebook"
+            />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
             android:id="@+id/Mail"
             android:contentDescription="@string/Mailing"
-            android:layout_weight=".2"
+            android:layout_weight="1"
             android:src="@drawable/mail" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
             android:id="@+id/Pics"
             android:contentDescription="@string/Pics"
-            android:layout_weight=".2"
+            android:layout_weight="1"
             android:src="@drawable/camera" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:id="@+id/QA"
             android:contentDescription="@string/Q"
-            android:layout_weight=".2"
+            android:layout_weight="1"
             android:src="@drawable/microphone" />
 
         <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
             android:id="@+id/Around"
             android:contentDescription="@string/Around"
-            android:layout_weight=".2"
+            android:layout_weight="1"
             android:src="@drawable/compass" />
     </LinearLayout>
 
